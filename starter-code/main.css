@@ -39,8 +39,20 @@ img {
   width: 40%;
   padding: 10px 20px;
   margin-left: 50px;
-  margin-top: 20px;
-  display: block;
+  margin-top: 0px;
+  display: inline;
+  line-height: 30px;
+}
+
+#app {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#google {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .insta {
@@ -49,7 +61,12 @@ img {
 
 .absolute {
   float: left;
+  position: relative;
+  left: -50px;
 }
+
+
+
 
 footer {
   clear: both;
@@ -61,4 +78,16 @@ li {
 
 ul {
   text-align: center;
+  color: #1c5380;
+
+}
+
+h1 {
+  color: #06365f;
+}
+
+h3 {
+  color: white;
+  margin-right: 2px;
+  margin-left: 5px;
 }
