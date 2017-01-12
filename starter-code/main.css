@@ -32,24 +32,22 @@ img {
   margin-left: 100px;
 }
 
-.rightfloat {
-  float: left;
-  width: 40%;
-  display: block;
-  margin-top: 100px;
-  margin-right: 0;
-}
-
 .rightbox {
-  
+  float: left;
   background-image: url(/Users/lauraleibow/desktop/bitmaker/css-site-replication/starter-code/images/frame.png);
   background-repeat: no-repeat;
-  width: 100%;
+  width: 40%;
   padding: 10px 20px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: block;
 }
 
 .insta {
+  float: left;
+}
+
+.absolute {
   float: left;
 }
 
